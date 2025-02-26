@@ -472,7 +472,8 @@ if __name__ == "__main__":
     wheat = Commodity(commodity_dict["wheat"])
     commodity_list.append(wheat)
 
-    app.run()
+    app.run(port=5000, host='0.0.0.0')
+)
 
 
 
