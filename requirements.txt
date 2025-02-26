@@ -3,4 +3,3 @@ sklearn
 numpy
 pandas
 flask-cors
-pip install 
